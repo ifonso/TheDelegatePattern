@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, IncrementValueDelegate {
     // Counter value
     private var value: Int = 0
     
@@ -54,5 +54,22 @@ class MainViewController: UIViewController {
     
     // Function that is called when navigateButton is pressed
     @objc
-    private func navigate() {}
+    private func navigate(_ sender: UIButton) {
+        // Createing the control modal
+        let controlViewController = SheetViewController()
+
+        // Passing delegate reference to controlViewController
+        controlViewController.delegate = self
+
+        // Presenting it
+        present(controlViewController, animated: true)
+    }
+    
+    func increment() {
+        // Incrementing value
+        value += 1
+
+        // Passing value to counterLabel
+        counterLabel.text = String(value)
+    }
 }

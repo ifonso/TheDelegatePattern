@@ -8,6 +8,9 @@
 import UIKit
 
 class SheetViewController: UIViewController {
+    // Delegate reference
+    var delegate: IncrementValueDelegate?
+    
     // Increment button
     lazy var incrementButton: UIButton = {
         let frame = CGRect(x: view.bounds.midX - 100,
@@ -36,5 +39,7 @@ class SheetViewController: UIViewController {
     
     // Function that is called when incrementButton is pressed
     @objc
-    func increment() {}
+    func increment() {
+        delegate?.increment()
+    }
 }

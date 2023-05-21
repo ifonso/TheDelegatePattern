@@ -13,6 +13,7 @@
 		78DA20832A19E52700AF64D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DA20822A19E52700AF64D9 /* Assets.xcassets */; };
 		78DA20862A19E52700AF64D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DA20842A19E52700AF64D9 /* LaunchScreen.storyboard */; };
 		78DA208F2A19E69C00AF64D9 /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA208E2A19E69C00AF64D9 /* SheetViewController.swift */; };
+		78DA20912A19E82400AF64D9 /* IncrementValueDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA20902A19E82400AF64D9 /* IncrementValueDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		78DA20852A19E52700AF64D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78DA20872A19E52700AF64D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78DA208E2A19E69C00AF64D9 /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
+		78DA20902A19E82400AF64D9 /* IncrementValueDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementValueDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				78DA208D2A19E61400AF64D9 /* Resources */,
 				78DA207D2A19E52600AF64D9 /* MainViewController.swift */,
 				78DA208E2A19E69C00AF64D9 /* SheetViewController.swift */,
+				78DA20902A19E82400AF64D9 /* IncrementValueDelegate.swift */,
 				78DA20822A19E52700AF64D9 /* Assets.xcassets */,
 				78DA20872A19E52700AF64D9 /* Info.plist */,
 			);
@@ -149,6 +152,7 @@
 				78DA207E2A19E52600AF64D9 /* MainViewController.swift in Sources */,
 				78DA207A2A19E52600AF64D9 /* AppDelegate.swift in Sources */,
 				78DA207C2A19E52600AF64D9 /* SceneDelegate.swift in Sources */,
+				78DA20912A19E82400AF64D9 /* IncrementValueDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Z58DGA5TP;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheDelegatePattern/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Z58DGA5TP;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheDelegatePattern/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
